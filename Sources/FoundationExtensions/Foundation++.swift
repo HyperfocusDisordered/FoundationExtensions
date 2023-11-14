@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import UIKit
 
 public extension Int {
     var string: String {
@@ -29,5 +28,4 @@ public extension Optional where Wrapped: Collection {
         return self?.isEmpty == true || self == nil
         
     }
-    
 }

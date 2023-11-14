@@ -192,6 +192,36 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>FEBuilders</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FECommon</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FEDates</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FEMirror</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FEOptional</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FERuntime</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>Field</key>
 		<dict>
 			<key>primary</key>

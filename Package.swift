@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
 	name: "FoundationExtensions",
 	platforms: [
-        .iOS(.v11), .macOS(.v10_10), .watchOS(.v3), .tvOS(.v9),
+        .iOS(.v11), .macOS(.v10_10), .watchOS(.v5), .tvOS(.v9),
 	],
 	products: [
 		.library(name: "FoundationExtensions", targets: ["FoundationExtensions"]),
@@ -18,6 +18,7 @@ let package = Package(
 		.library(name: "FERuntime", targets: ["FERuntime"])
 	],
 	dependencies: [
+        .package(url: "https://github.com/dankinsoid/VDCodable.git", from: "2.12.0")
     ],
 	targets: [
 		.target(name: "FERuntimeObjc", dependencies: []),
@@ -27,6 +28,6 @@ let package = Package(
 		.target(name: "FEDates", dependencies: []),
 		.target(name: "FEOptional", dependencies: []),
 		.target(name: "FEMirror", dependencies: []),
-		.target(name: "FoundationExtensions", dependencies: ["FERuntime", "FEBuilders", "FECommon", "FEDates", "FEOptional", "FEMirror"]),
+		.target(name: "FoundationExtensions", dependencies: ["FERuntime", "FEBuilders", "FECommon", "FEDates", "FEOptional", "FEMirror", "VDCodable"]),
 	]
 )
