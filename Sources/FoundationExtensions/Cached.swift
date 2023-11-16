@@ -107,7 +107,7 @@ class CachedInstance<T: Codable> {
 		subject = .init(PlistManager.value(for: key) ?? deflt)
 		
 		subject
-			.receive(on: .main)
+			.receive(on: DispatchQueue.main)
 			.sink {
 //			print("SINK")
 			if self.didInit {

@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
 	name: "FoundationExtensions",
 	platforms: [
-        .iOS(.v11), .macOS(.v10_10), .watchOS(.v5), .tvOS(.v9),
+        .iOS(.v11), .macOS(.v10_10), .watchOS(.v6), .tvOS(.v9),
 	],
 	products: [
 		.library(name: "FoundationExtensions", targets: ["FoundationExtensions"]),
