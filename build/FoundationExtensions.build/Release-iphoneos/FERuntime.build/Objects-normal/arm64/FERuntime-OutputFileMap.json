@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FERuntime.build/Objects-normal/arm64/FERuntime-master.swiftconstvalues",
+    "dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FERuntime.build/Objects-normal/arm64/FERuntime-master.d",
+    "diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FERuntime.build/Objects-normal/arm64/FERuntime-master.dia",
+    "emit-module-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FERuntime.build/Objects-normal/arm64/FERuntime-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FERuntime.build/Objects-normal/arm64/FERuntime-master-emit-module.dia",
+    "swift-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FERuntime.build/Objects-normal/arm64/FERuntime-master.swiftdeps"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FERuntime/Runtime++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FERuntime.build/Objects-normal/arm64/Runtime++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FERuntime.build/Objects-normal/arm64/Runtime++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FERuntime.build/Objects-normal/arm64/Runtime++.o"
+  }
+}

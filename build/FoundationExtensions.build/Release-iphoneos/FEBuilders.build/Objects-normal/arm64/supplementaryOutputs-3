@@ -1,0 +1,9 @@
+"/Users/denisovchar/FoundationExtensions/Sources/FEBuilders/ArrayBuilder.swift":
+  objc-header: "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-Swift.h"
+  diagnostics: "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-master.dia"
+  dependencies: "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-master.d"
+  swiftdoc: "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders.swiftdoc"
+  const-values: "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-master.swiftconstvalues"
+  swiftmodule: "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders.swiftmodule"
+  swiftsourceinfo: "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders.swiftsourceinfo"
+  abi-baseline-json: "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders.abi.json"

@@ -1,0 +1,100 @@
+{
+  "" : {
+    "const-values" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/FECommon-master.swiftconstvalues",
+    "dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/FECommon-master.d",
+    "diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/FECommon-master.dia",
+    "emit-module-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/FECommon-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/FECommon-master-emit-module.dia",
+    "swift-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/FECommon-master.swiftdeps"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Bool++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Bool++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Bool++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Bool++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Clojures.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Clojures.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Clojures.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Clojures.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Collection++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Collection++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Collection++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Collection++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/CollectionDifference++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/CollectionDifference++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/CollectionDifference++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/CollectionDifference++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/CopyOnWrite.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/CopyOnWrite.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/CopyOnWrite.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/CopyOnWrite.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Decimal++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Decimal++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Decimal++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Decimal++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/GetterSetter.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/GetterSetter.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/GetterSetter.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/GetterSetter.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Lazy.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Lazy.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Lazy.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Lazy.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Locale++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Locale++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Locale++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Locale++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Lock++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Lock++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Lock++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Lock++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/OffsetBounds.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/OffsetBounds.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/OffsetBounds.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/OffsetBounds.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Pair.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Pair.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Pair.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Pair.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Pattern.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Pattern.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Pattern.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Pattern.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Proxy.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Proxy.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Proxy.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Proxy.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Range++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Range++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Range++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Range++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Result++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Result++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Result++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Result++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/String++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/String++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/String++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/String++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Union.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Union.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Union.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FECommon.build/Objects-normal/arm64/Union.o"
+  }
+}

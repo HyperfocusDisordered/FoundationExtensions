@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "7103dc2df2d5f04ef9a3d48ca21449e2ba4cb760fab794f037ca856ae1961590"
+build_start_time: [1703463128, 660017000]
+build_end_time: [1703463132, 495302000]
+inputs:
+  "/Users/denisovchar/FoundationExtensions/Sources/FEMirror/Mirror++.swift": [1682684265, 0]

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "f276ba646fb24113da98190c4b1b543a2052014559293593a5c88e645111b04d"
+build_start_time: [1703463128, 636876000]
+build_end_time: [1703463131, 679589000]
+inputs:
+  "/Users/denisovchar/FoundationExtensions/Sources/FEOptional/UnwrapOperator.swift": [1682684265, 0]

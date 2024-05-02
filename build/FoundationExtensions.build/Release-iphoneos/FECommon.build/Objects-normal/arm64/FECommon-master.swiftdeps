@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "8bfdf4823919080ce264006ac123cdadda741962aa17efb68ec41f6fc2791b30"
+build_start_time: [1703463131, 698360000]
+build_end_time: [1703463135, 758044000]
+inputs:
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Bool++.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Clojures.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Collection++.swift": [1699980662, 564061859]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/CollectionDifference++.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/CopyOnWrite.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Decimal++.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/GetterSetter.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Lazy.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Locale++.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Lock++.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/OffsetBounds.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Pair.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Pattern.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Proxy.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Range++.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Result++.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/String++.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FECommon/Union.swift": [1682684265, 0]

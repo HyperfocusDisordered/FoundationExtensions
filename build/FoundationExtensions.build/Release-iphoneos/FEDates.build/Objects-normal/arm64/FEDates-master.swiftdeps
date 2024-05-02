@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "8896c27cc80f032150ba3121a37f4b4ea2cd055e31038e5ce082fd136f73e75a"
+build_start_time: [1703463128, 660811000]
+build_end_time: [1703463138, 693742000]
+inputs:
+  "/Users/denisovchar/FoundationExtensions/Sources/FEDates/CalendarComponent++.swift": [1699984512, 270383816]
+  "/Users/denisovchar/FoundationExtensions/Sources/FEDates/Date++.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FEDates/DateFormat.swift": [1682684265, 0]

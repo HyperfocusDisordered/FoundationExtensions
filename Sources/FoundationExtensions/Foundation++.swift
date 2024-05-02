@@ -29,3 +29,40 @@ public extension Optional where Wrapped: Collection {
         
     }
 }
+
+extension Numeric where Self: Comparable {
+    func max(_ limit: Self) -> Self {
+        self > limit ? limit : self
+    }
+
+    func min(_ limit: Self) -> Self {
+        self < limit ? limit : self
+    }
+}
+
+
+
+public extension Equatable {
+	//	mutating func apply(_ block: (inout Self) -> Void ) -> Self {
+	//		block(&self)
+	//		return self
+	//	}
+	func apply(_ block: (Self) -> Void ) -> Self {
+		block(self)
+		return self
+	}
+}
+
+
+
+public extension Equatable {
+	//	mutating func apply(_ block: (inout Self) -> Void ) -> Self {
+	//		block(&self)
+	//		return self
+	//	}
+	func mutate(_ block: (inout Self) -> Void ) -> Self {
+		var result = self
+		block(&result)
+		return result
+	}
+}

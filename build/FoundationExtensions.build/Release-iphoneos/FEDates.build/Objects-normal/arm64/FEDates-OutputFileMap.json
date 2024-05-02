@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/FEDates-master.swiftconstvalues",
+    "dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/FEDates-master.d",
+    "diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/FEDates-master.dia",
+    "emit-module-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/FEDates-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/FEDates-master-emit-module.dia",
+    "swift-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/FEDates-master.swiftdeps"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FEDates/CalendarComponent++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/CalendarComponent++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/CalendarComponent++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/CalendarComponent++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FEDates/Date++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/Date++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/Date++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/Date++.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FEDates/DateFormat.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/DateFormat.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/DateFormat.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEDates.build/Objects-normal/arm64/DateFormat.o"
+  }
+}

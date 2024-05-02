@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEOptional.build/Objects-normal/arm64/FEOptional-master.swiftconstvalues",
+    "dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEOptional.build/Objects-normal/arm64/FEOptional-master.d",
+    "diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEOptional.build/Objects-normal/arm64/FEOptional-master.dia",
+    "emit-module-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEOptional.build/Objects-normal/arm64/FEOptional-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEOptional.build/Objects-normal/arm64/FEOptional-master-emit-module.dia",
+    "swift-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEOptional.build/Objects-normal/arm64/FEOptional-master.swiftdeps"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FEOptional/UnwrapOperator.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FEOptional.build/Objects-normal/arm64/UnwrapOperator.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEOptional.build/Objects-normal/arm64/UnwrapOperator.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEOptional.build/Objects-normal/arm64/UnwrapOperator.o"
+  }
+}

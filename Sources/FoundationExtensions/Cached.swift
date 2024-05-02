@@ -36,7 +36,13 @@ public class PlistManager {
         let value = UserDefaults.standard.value(forKey: key)
 
         if let data = value as? Data {
-            return try? VDJSONDecoder().decode(T.self, from: data)
+			do {
+				return try VDJSONDecoder().decode(T.self, from: data)
+			} catch {
+				print("error decoding: ", key)
+				print(error)
+				return nil
+			}
         } else {
             return value as? T
         }
@@ -51,13 +57,14 @@ public class PlistManager {
     }
 }
 
-
+@available(macOS 10.15, *)
 @propertyWrapper
 public struct Cached <T: Codable> {
 	
 	let key: String
 	let deflt: T
 	
+
 	public var projectedValue: CurrentValueSubject<T, Never> {
 		cachedInstance.subject
 	}
@@ -91,6 +98,7 @@ fileprivate enum Statics {
     @Atomic fileprivate static var cachedInstances: [String: Any] = [:]
 }
 
+@available(macOS 10.15, *)
 class CachedInstance<T: Codable> {
 
 
@@ -104,8 +112,9 @@ class CachedInstance<T: Codable> {
 	init(key: String, deflt: T) {
 		self.key = key
 		
-		subject = .init(PlistManager.value(for: key) ?? deflt)
-		
+		let storedValue: T? = PlistManager.value(for: key)
+		subject = .init(storedValue ?? deflt)
+
 		subject
 			.receive(on: DispatchQueue.main)
 			.sink {
@@ -121,6 +130,7 @@ class CachedInstance<T: Codable> {
 	}
 }
 
+@available(macOS 10.15, *)
 func getCachedInstance<T>(key: String, deflt: T) -> CachedInstance<T> {
     if let instance = Statics.cachedInstances[key] as? CachedInstance<T> {
 		return instance
@@ -140,15 +150,15 @@ func getCachedInstance<T>(key: String, deflt: T) -> CachedInstance<T> {
 
 
 @propertyWrapper
-fileprivate struct Atomic<Value> {
+public struct Atomic<Value> {
     private let queue = DispatchQueue(label: "com.atomic.Atomic<Value>")
     private var value: Value
 
-    init(wrappedValue: Value) {
+    public init(wrappedValue: Value) {
         self.value = wrappedValue
     }
 
-    var wrappedValue: Value {
+    public var wrappedValue: Value {
         get {
             return queue.sync { value }
         }
@@ -157,3 +167,35 @@ fileprivate struct Atomic<Value> {
         }
     }
 }
+
+
+
+@available(macOS 10.15, *)
+extension Cached: Equatable where T: Equatable {
+    public static func == (lhs: Self, rhs: Self) -> Bool {
+        lhs.wrappedValue == rhs.wrappedValue
+    }
+}
+
+@available(macOS 10.15, *)
+extension Cached: Hashable where T: Hashable {
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(wrappedValue)
+    }
+
+    public var hashValue: Int {
+        wrappedValue.hashValue
+    }
+}
+
+//extension Cached: Codable where T: Codable {
+//    public func encode(to encoder: Encoder) throws {
+//        try wrappedValue.encode(to: encoder)
+//    }
+//
+//    public init(from decoder: Decoder) throws {
+//
+//        //self.init(wrappedValue: <#T##Decodable & Encodable#>, <#T##key: String##String#>)
+////        fatalError()
+//    }
+//}

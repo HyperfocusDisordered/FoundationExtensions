@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-master.swiftconstvalues",
+    "dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-master.d",
+    "diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-master.dia",
+    "emit-module-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-master-emit-module.dia",
+    "swift-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/FEBuilders-master.swiftdeps"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FEBuilders/ArrayBuilder.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/ArrayBuilder.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/ArrayBuilder.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/ArrayBuilder.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FEBuilders/ComposeBuilder.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/ComposeBuilder.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/ComposeBuilder.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/ComposeBuilder.o"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FEBuilders/SingleBuilder.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/SingleBuilder.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/SingleBuilder.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEBuilders.build/Objects-normal/arm64/SingleBuilder.o"
+  }
+}

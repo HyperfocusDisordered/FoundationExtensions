@@ -1,0 +1,4 @@
+module FEDates {
+header "FEDates-Swift.h"
+export *
+}

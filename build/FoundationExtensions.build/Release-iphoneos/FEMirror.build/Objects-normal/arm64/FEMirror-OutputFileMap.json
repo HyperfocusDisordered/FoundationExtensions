@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEMirror.build/Objects-normal/arm64/FEMirror-master.swiftconstvalues",
+    "dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEMirror.build/Objects-normal/arm64/FEMirror-master.d",
+    "diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEMirror.build/Objects-normal/arm64/FEMirror-master.dia",
+    "emit-module-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEMirror.build/Objects-normal/arm64/FEMirror-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEMirror.build/Objects-normal/arm64/FEMirror-master-emit-module.dia",
+    "swift-dependencies" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEMirror.build/Objects-normal/arm64/FEMirror-master.swiftdeps"
+  },
+  "/Users/denisovchar/FoundationExtensions/Sources/FEMirror/Mirror++.swift" : {
+    "index-unit-output-path" : "/FoundationExtensions.build/Release-iphoneos/FEMirror.build/Objects-normal/arm64/Mirror++.o",
+    "llvm-bc" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEMirror.build/Objects-normal/arm64/Mirror++.bc",
+    "object" : "/Users/denisovchar/FoundationExtensions/build/FoundationExtensions.build/Release-iphoneos/FEMirror.build/Objects-normal/arm64/Mirror++.o"
+  }
+}

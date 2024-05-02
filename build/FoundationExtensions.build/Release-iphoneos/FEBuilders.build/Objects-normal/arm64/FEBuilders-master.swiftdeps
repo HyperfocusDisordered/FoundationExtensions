@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "cc07db4357673d1ced275cc3efaafb0a1f7968eba3d66fbb6588200d914ec584"
+build_start_time: [1703463128, 660261000]
+build_end_time: [1703463132, 476612000]
+inputs:
+  "/Users/denisovchar/FoundationExtensions/Sources/FEBuilders/ArrayBuilder.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FEBuilders/ComposeBuilder.swift": [1682684265, 0]
+  "/Users/denisovchar/FoundationExtensions/Sources/FEBuilders/SingleBuilder.swift": [1682684265, 0]

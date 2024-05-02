@@ -1,0 +1,4 @@
+module FERuntimeObjc {
+umbrella "/Users/denisovchar/FoundationExtensions/Sources/FERuntimeObjc/include"
+export *
+}
