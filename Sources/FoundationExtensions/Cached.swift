@@ -146,13 +146,80 @@ func getCachedInstance<T>(key: String, deflt: T) -> CachedInstance<T> {
 
 
 
+import os
+
+public final class UnfairLockWrapper {
+	private let pointer: os_unfair_lock_t
+
+	public init() {
+		self.pointer = .allocate(capacity: 1)
+		self.pointer.initialize(to: os_unfair_lock())
+	}
+
+	deinit {
+		self.pointer.deinitialize(count: 1)
+		self.pointer.deallocate()
+	}
+
+	public func lock() {
+		os_unfair_lock_lock(self.pointer)
+	}
+
+	public func unlock() {
+		os_unfair_lock_unlock(self.pointer)
+	}
+
+	public func withLock<T>(_ f: () -> T) -> T {
+		defer { unlock() }
+		lock()
+		return f()
+	}
+}
+
+@propertyWrapper
+public final class UnfairLock<T> {
+	private let lock = UnfairLockWrapper()
+
+	private var value: T
+
+	public init(wrappedValue: T) {
+		self.value = wrappedValue
+	}
+
+	public var projectedValue: UnfairLock<T> { self }
+
+	public var wrappedValue: T {
+		get {
+			lock.lock()
+			defer { lock.unlock() }
+			return value
+		}
+		set {
+			lock.lock()
+			defer { lock.unlock() }
+			value = newValue
+		}
+	}
+
+	public func write(_ f: (inout T) -> Void) {
+		lock.lock()
+		defer { lock.unlock() }
+		return f(&value)
+	}
+
+	public func access(_ f: (T) -> Void) {
+		lock.lock()
+		defer { lock.unlock() }
+		return f(value)
+	}
+}
+
 
 
 
 @propertyWrapper
 public struct Atomic<Value> {
-    private let queue = DispatchQueue(label: "com.atomic.Atomic<Value>")
-    private var value: Value
+    @UnfairLock private var value: Value
 
     public init(wrappedValue: Value) {
         self.value = wrappedValue
@@ -160,10 +227,10 @@ public struct Atomic<Value> {
 
     public var wrappedValue: Value {
         get {
-            return queue.sync { value }
+            return value
         }
         set {
-            queue.sync { value = newValue }
+            value = newValue
         }
     }
 }
