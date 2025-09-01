@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "simplecoders",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dankinsoid/SimpleCoders.git",
+      "state" : {
+        "revision" : "2561ced891e8cef1a47c66c9b2b39f73c4b1a2ef",
+        "version" : "1.6.0"
+      }
+    },
+    {
+      "identity" : "vdcodable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dankinsoid/VDCodable.git",
+      "state" : {
+        "revision" : "0d016669f23c70ce09bb7bfde321927783ac2af7",
+        "version" : "2.14.0"
+      }
+    }
+  ],
+  "version" : 2
+}
