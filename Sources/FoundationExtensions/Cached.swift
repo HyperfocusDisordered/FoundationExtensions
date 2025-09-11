@@ -71,10 +71,14 @@ public struct Cached <T: Codable> {
 	
 	public var wrappedValue: T {
 		get {
-			cachedInstance.subject.value
+			mainSync {
+				cachedInstance.subject.value
+			}
 		}
 		set {
-			cachedInstance.subject.value = newValue
+			mainIfNeeded {
+				cachedInstance.subject.value = newValue
+			}
 		}
 	}
 	
@@ -90,13 +94,39 @@ public struct Cached <T: Codable> {
 	}
 	
 	var cachedInstance: CachedInstance<T> {
-		getCachedInstance(key: key, deflt: deflt)
+		mainSync {
+			getCachedInstance(key: key, deflt: deflt)
+		}
 	}
 }
 
 fileprivate enum Statics {
-    @Atomic fileprivate static var cachedInstances: [String: Any] = [:]
+
+	fileprivate static var cachedInstances: [String: Any] = [:]
 }
+
+
+func mainSync<R>(_ lambda: @escaping ()->R) -> R {
+	if Thread.current.isMainThread {
+		return lambda()
+	} else {
+		return DispatchQueue.main.sync {
+				lambda()
+		}
+	}
+}
+
+func mainIfNeeded(_ lambda: @escaping ()->()) {
+	if Thread.current.isMainThread {
+		lambda()
+	} else {
+		DispatchQueue.main.async {
+
+				lambda()
+		}
+	}
+}
+
 
 @available(macOS 10.15, *)
 class CachedInstance<T: Codable> {
@@ -132,12 +162,14 @@ class CachedInstance<T: Codable> {
 
 @available(macOS 10.15, *)
 func getCachedInstance<T>(key: String, deflt: T) -> CachedInstance<T> {
-    if let instance = Statics.cachedInstances[key] as? CachedInstance<T> {
-		return instance
-	} else {
-		let new = CachedInstance<T>(key: key, deflt: deflt)
-        Statics.cachedInstances[key] = new
-		return new
+	mainSync {
+		if let instance = Statics.cachedInstances[key] as? CachedInstance<T> {
+			return instance
+		} else {
+			let new = CachedInstance<T>(key: key, deflt: deflt)
+			Statics.cachedInstances[key] = new
+			return new
+		}
 	}
 }
 
