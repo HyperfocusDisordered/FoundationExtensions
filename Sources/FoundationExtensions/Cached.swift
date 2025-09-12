@@ -12,7 +12,7 @@ import Combine
 //import CombineOperators
 //import CombineCocoa
 import VDCodable
-
+ 
 public protocol NameSpaceReadable {
     static var nameSpace: String { get }
 }
