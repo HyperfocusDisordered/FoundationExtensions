@@ -101,6 +101,7 @@ public class Cached <T: Codable> {
 }
 
 fileprivate enum Statics {
+	static let pipeline = DispatchQueue(label: "CachedInstancePipeline", qos: .utility)
 
 	fileprivate static var cachedInstances: [String: Any] = [:]
 }
@@ -131,7 +132,6 @@ func mainIfNeeded(_ lambda: @escaping ()->()) {
 @available(macOS 10.15, *)
 class CachedInstance<T: Codable> {
 
-
 	let key: String
 
 	public let subject: CurrentValueSubject<T, Never>
@@ -146,7 +146,7 @@ class CachedInstance<T: Codable> {
 		subject = .init(storedValue ?? deflt)
 
 		subject
-			.receive(on: DispatchQueue.main)
+			.receive(on: Statics.pipeline)
 			.sink {
 //			print("SINK")
 			if self.didInit {
